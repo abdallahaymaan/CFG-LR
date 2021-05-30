@@ -24,11 +24,11 @@ common left-hand side. The first string of the first item is S.
 For example, consider the CFG ({S, T, L}, {i, a, b, c, d}, R, S), where R is given by the
 following productions.
 
-'''
+```
 S −→ S c T | S a | T | b
 T −→ a S b | i a L b | i
 L −→ S d L | S
-'''
+```
 
 This CFG will have the following string encoding.
 
