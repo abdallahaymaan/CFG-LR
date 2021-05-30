@@ -30,7 +30,7 @@ T −→ a S b | i a L b | i
 L −→ S d L | S
 ```
 
-  This CFG will have the following string encoding.
+  This CFG will have the following string encoding, *spaces are added for the ease of reading*. 
 
 > **S, ScT, Sa, T, b; T, aSb, iaLb, i; L, SdL, S**
 
