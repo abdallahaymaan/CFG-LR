@@ -43,6 +43,6 @@ the elimination of immediate left-recursion for variable A, is the string A. The
 denotes the empty string.
 - Thus, for the above example, the output should be as follows, *spaces are added for the ease of reading*. 
 
-S, =TS0 , bS0 ; S0, cTS0, aS0, e; T, aSb, iaLb, i;L, aSbS0dL, iaLbS0dL, iS0dL, bS0dL, aSbS0, iaLbS0, iS0, bS0
+**S, TS' , bS' ; S', cTS', aS', e; T, aSb, iaLb, i;L, aSbS'dL, iaLbS'dL, iS'dL, bS'dL, aSbS', iaLbS', iS', bS'**
 
 
