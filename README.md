@@ -21,6 +21,7 @@ is a set of rules, and S ∈ V is the start variable.
 sequence of strings. The first string of each item is a member of V , representing the
 common left-hand side. The first string of the first item is S.
 
+
 For example, consider the CFG ({S, T, L}, {i, a, b, c, d}, R, S), where R is given by the
 following productions.
 
@@ -33,6 +34,7 @@ L −→ S d L | S
   This CFG will have the following string encoding, *spaces are added for the ease of reading*. 
 
 > **S, ScT, Sa, T, b; T, aSb, iaLb, i; L, SdL, S**
+
 
 - The function LRE will assume the ordering of variables as they appear in the string
 encoding of the CFG. Thus, in the above example, the variables are ordered thus: S, T, L.
