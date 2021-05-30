@@ -30,9 +30,9 @@ T −→ a S b | i a L b | i
 L −→ S d L | S
 ```
 
-This CFG will have the following string encoding.
+  This CFG will have the following string encoding.
 
-**S, ScT, Sa, T, b; T, aSb, iaLb, i; L, SdL, S**
+> **S, ScT, Sa, T, b; T, aSb, iaLb, i; L, SdL, S**
 
 - The function LRE will assume the ordering of variables as they appear in the string
 encoding of the CFG. Thus, in the above example, the variables are ordered thus: S, T, L.
